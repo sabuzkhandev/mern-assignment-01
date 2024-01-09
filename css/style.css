@@ -1,0 +1,46 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    margin: 0;
+}
+
+.logo{
+    font-size: 18px;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+.banner{
+    background-image: linear-gradient(to left, white, #A8C7D4);
+    height: 350px;
+    position: relative;
+}
+
+.banner img{
+    position: absolute;
+    top: 5%;
+    right: 0;
+}
+
+.banner_left{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 50%;
+}
+
+.mt__custom{
+    margin-top: 5rem;
+}
+
+
+.age__check{
+    background-image: linear-gradient(to left, white, #A8C7D4);
+    padding: 20px 0;
+}
